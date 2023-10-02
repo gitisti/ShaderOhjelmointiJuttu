@@ -35,7 +35,8 @@ Shader"Custom/TestiShader"
 
        struct Attributes{
        float3 positionOS : POSITION;
-       };
+       float3 normalOS : NORMAL;
+};
 
        struct Varyings{
         float4 positionHCS : SV_POSITION;
